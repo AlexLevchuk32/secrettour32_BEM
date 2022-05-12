@@ -634,3 +634,77 @@ body.lock {
 .fidback-form.active {
   display: block;
 }
+
+.soglasie {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 99;
+}
+
+.soglasie__close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  border: 2px solid;
+  border-radius: 50%;
+  color: #777;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.soglasie__close-btn::after {
+  content: "\2716";
+  font-size: 19px;
+}
+
+.soglasie__container {
+  max-width: 550px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.soglasie__body {
+  background: #e8e8e8;
+  display: block;
+  padding: 25px;
+  text-align: center;
+}
+
+.soglasie__text h3 {
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.soglasie__text p {
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.soglasie__text p:last-child {
+  margin-bottom: 0px;
+}
+
+.soglasie.active {
+  display: block;
+}
