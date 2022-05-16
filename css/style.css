@@ -708,3 +708,60 @@ body.lock {
 .soglasie.active {
   display: block;
 }
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+  .header__nav {
+    margin-bottom: 60px;
+  }
+  .header__menu {
+    margin-right: 25px;
+    font-size: 20px;
+  }
+  .header__phone {
+    font-size: 18px;
+    margin-left: auto;
+  }
+  .header__phone-img {
+    width: 18px;
+    height: 18px;
+    margin-top: 1px;
+  }
+  .header__slogan {
+    font-size: 95px;
+    line-height: 95px;
+  }
+  .header__offer {
+    margin-bottom: 60px;
+    font-size: 25px;
+    line-height: 50px;
+  }
+  .header__btn {
+    max-width: 420px;
+    max-height: 100px;
+  }
+  .header__btn-link {
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .all-for-you__title {
+    font-size: 40px;
+  }
+  .all-for-you__item {
+    font-size: 30px;
+  }
+  .country__title {
+    font-size: 55px;
+  }
+  .fidback__item-text {
+    font-size: 1.37rem;
+  }
+}
