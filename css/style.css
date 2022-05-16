@@ -765,3 +765,78 @@ body.lock {
     font-size: 1.37rem;
   }
 }
+
+@media screen and (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+  .header__menu {
+    margin-left: 25px;
+    font-size: 16px;
+  }
+  .header__menu-link {
+    margin-right: 15px;
+    min-height: 20px;
+  }
+  .header__phone {
+    font-size: 14px;
+  }
+  .header__phone-img {
+    width: 14px;
+    height: 14px;
+    margin-top: 1px;
+  }
+  .header__slogan p {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .header__offer {
+    font-size: 24px;
+    line-height: 50px;
+  }
+  .header__btn {
+    max-width: 400px;
+    max-height: 100px;
+  }
+  .header__btn-link {
+    font-size: 22px;
+    line-height: 22px;
+    padding: 38px 0;
+  }
+  .all-for-you__title {
+    font-size: 30px;
+  }
+  .all-for-you__item {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .country__title {
+    font-size: 40px;
+  }
+  .country__item {
+    max-width: 48.5%;
+  }
+  .country__item-title {
+    font-size: 54px;
+  }
+  .country__item-img img {
+    max-width: 95%;
+  }
+  .country__item-text {
+    max-width: 95%;
+  }
+  .fidback__title {
+    font-size: 40px;
+  }
+  .fidback__item-text {
+    font-size: 0.98rem;
+  }
+  .soglasie__text h3 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .soglasie__text p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
