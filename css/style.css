@@ -128,7 +128,7 @@ body.lock {
 }
 
 .header {
-  background: url("../img/headerBackground3.jpg") no-repeat center top/cover;
+  background: url("../img/headerBackground3.jpg") center top/cover no-repeat;
   padding-top: 60px;
   padding-bottom: 155px;
   margin-bottom: 60px;
